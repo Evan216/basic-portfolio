@@ -1,0 +1,115 @@
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    list-style-type: none;
+}
+
+.nav a:link,
+.nav a:visited {
+    margin-left: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    border: transparent;
+    border-style: solid;
+
+}
+
+html {
+    color: aliceblue;
+
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+
+    width: 100%;
+    background-image:
+        url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/man-face-blended-with-binary-code-digits-concept-of-hacker-data-protection-etc-michal-bednarek.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+
+.flexbox-item:hover,
+.flexbox-item:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+.flexbox-item-1,
+.flexbox-item-2,
+.flexbox-item-3,
+.flexbox-item-4 {
+    -webkit-text-size-adjust: 100%;
+    line-height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    background-color: transparent;
+    vertical-align: top;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 40px 15px 0;
+
+    font-size: 16px;
+    letter-spacing: .02em;
+    left: 0;
+    top: 0;
+    right: auto;
+    bottom: 0;
+    -webkit-box-flex: 0;
+    flex: 0 auto;
+    color: #f0860c;
+    font-weight: 500;
+    max-width: 728px;
+}
+
+.flexbox-item-5 {
+    -webkit-text-size-adjust: 100%;
+    line-height: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    background-color: transparent;
+    vertical-align: top;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 40px 15px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .02em;
+    position: relative;
+    left: auto;
+    align-self: stretch;
+    -webkit-box-flex: 1;
+    flex: 1;
+    text-align: right;
+    max-width: 728px;
+}
+.header{
+    background-color: black;
+    height: 50px;
+    
+}
+.link{
+    -webkit-text-size-adjust: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    -webkit-box-direction: normal;
+    font-size: 21px;
+    line-height: 1;
+    letter-spacing: .01em;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #f0860c;
+    text-decoration: none;
+    font-weight: 300;
+}
+

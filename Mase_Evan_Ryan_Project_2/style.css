@@ -1,0 +1,62 @@
+html{
+    box-sizing: border-box;
+    width:10000000px;
+    height: 1400px;
+    background: url('https://www.bing.com/th/id/OGC.3b33718921fc7c64120c3b65ecf386a4?pid=1.7&rurl=http%3a%2f%2fwww.saic.edu%2f%7eanelso13%2fgif%2fimages%2fcat14.gif&ehk=9lh2HAMRMJuPNR%2fSPLVMk27UjjMgb%2bJjsPACnkh1ObY%3d') left center;
+    background-size:auto;
+    animation: play 1.5s steps(10) infinite;
+    display:inline-flex;
+ 
+}
+body{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.quiz-container{
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+    text-align: center;
+
+}
+.quiz-header{
+    padding: 4rem;
+}
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+font-size: 1.2rem;
+margin: 1rem 0;
+}
+ul li label{
+    cursor: pointer;
+}
+button{
+    background-color: aqua;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+}
+
+@keyframes play{
+    100%{background-position: 1000px;}
+}

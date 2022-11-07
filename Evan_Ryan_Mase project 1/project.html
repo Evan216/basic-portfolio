@@ -1,0 +1,44 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List Manager</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    
+    <h1  id="heading1" align="center" >The Royal Grocery List Manager</h1>
+    <p align="center">Select "Add Grocery Item" to begin adding groceries to your list</p>
+    <p align="center">Select "Cancel" while adding items to stop adding items at any time</p>
+    <p align="center">Selecting grocery items from your list will add that item to your cart! To remove items from your cart just select the item in the grocery list again!</p>
+    <p align="center">Items that are crossed out are in your shopping cart</p>
+    <button align="left" onclick="addItem()">Add Grocery Item</button>
+    <!-- <label for="grocery" name="Select an option">
+    <select id="test" onchange="viewItems(this.value)" class="test"> 
+    <option value="">Select an option</option>
+    <option value="1">All Items</option>
+    <option value="2">Only purchased</option>
+    <option value="3">Only remaining</option>
+    </select>
+    </label> -->
+    <br>
+    <bgsound src="British grocery.mp3" loop="true" autostart="true" width="2" height="0"></bgsound>
+    <button onclick="viewAll()">View All Royal items</button>
+    <br>
+    <button onclick="purchased()">View Purchased Royal items</button>
+    <br>
+    <button onclick="unpurchased()">View Royal items not in cart</button>
+    <div class="div1" id="cart" display="none"></div>
+ 
+
+
+
+    <script src="project.js">
+    </script>
+</body>
+</html>

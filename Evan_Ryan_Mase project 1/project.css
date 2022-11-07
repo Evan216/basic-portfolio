@@ -1,0 +1,20 @@
+ html{
+    padding: auto;
+    margin: 0;
+    box-sizing:content-box;
+    background-color: tomato;
+    border:  48px solid;
+    border-image: url("https://th.bing.com/th/id/OIP.hKt4a87ni7YVAWWs5Mw3LQHaFj?w=271&h=203&c=7&r=0&o=5&dpr=2.5&pid=1.7") 40% round;
+    border-image-repeat:stretch;
+    background-image:url(https://th.bing.com/th/id/OIP.AJbxq42vraSimOUuNP__2gHaE8?w=276&h=184&c=7&r=0&o=5&dpr=2.5&pid=1.7);
+    background-size:cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   position: relative;
+   height: 650px;
+ }
+
+.class1{
+    text-decoration-line:line-through;
+    display: none;
+}
